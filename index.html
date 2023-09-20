@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Weather Project That Uses Api Request</h1>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#Description" class="nav-link px-2 link-body-emphasis">Description</a></li>
+              <li><a href="#WeatherProject" class="nav-link px-2 link-body-emphasis">Weather_project</a></li>
+            </ul>
+            
+            <h2>Know About Me --> </h2>
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/profile-pic.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="https://devatheerthagiri-portfolio.netlify.app/">Portfolio Website</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <section id="Description">
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="details-container">
+                    <h3>Description</h3>
+                    <p>A weather app developed that gives information of the city Temperature,humidity and Windspeed<br>
+                      Technology Used : HTML,Css,Javascript.<br>
+                      Weather API is used to know the information of the current weather Conditions
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="WeatherProject">
+        <div class="section-container">
+                    <h3>Weather App</h3>
+        </div>
+    </section>
+    <section id="ProjectDetails">
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" >
+        <button><img src="assets/search.png"></button>
+      </div>
+
+      <div class="error">
+        <p>Invalid city name </p>
+      </div>
+
+      <div class="weather">
+        <img src="/assets/rain.png" class="Weather-icon">
+        <h1 class="temp">Enter City Name</h1>
+        <h2 class="city">To Know Temperature</h2>
+        <div class="details">
+          <div class="col">
+            <img src="/assets/humidity.png">
+            <div>
+              <p class="humidity"></p>
+              <p>humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="/assets/wind.png">
+            <div>
+              <p class="wind"></p>
+              <p>wind speed</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
